@@ -12,27 +12,27 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-white pt-20 pb-10 relative overflow-hidden">
       <div className="container mx-auto px-6 lg:px-8 container">
-        
+
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16 pb-16 relative">
-          
+
           {/* Horizontal Decorative Line (Spans Full Width of Screen) */}
           <div className="absolute bottom-0 left-[-50vw] right-[-50vw] h-px bg-white/10"></div>
 
           {/* Col 1: Logo & Contact */}
           <div className="flex flex-col gap-8 relative">
-            
+
             {/* Vertical Decorative Line (Spans Full Height of Footer) */}
             <div className="absolute right-[-10px] xl:right-[50px] top-[-500px] bottom-[-500px] w-px bg-white/10 hidden lg:block"></div>
 
             <div className="flex items-center gap-2">
-               {/* Logo Icon */}
-               <div className="w-8 h-8 bg-secondary rounded-sm flex items-center justify-center">
-                 <ArrowUpRight className="text-white w-5 h-5" />
-               </div>
-               <span className="text-2xl font-bold tracking-tight">Finzo</span>
+              {/* Logo Icon */}
+              <div className="w-8 h-8 bg-secondary rounded-sm flex items-center justify-center">
+                <ArrowUpRight className="text-white w-5 h-5" />
+              </div>
+              <span className="text-2xl font-bold tracking-tight">Finzo</span>
             </div>
-            
+
             <div>
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Location</h4>
               <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors cursor-pointer">
@@ -40,7 +40,7 @@ const Footer = () => {
                 New York, NY 10001, USA
               </p>
             </div>
-            
+
             <div>
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Contact Us</h4>
               <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors cursor-pointer">
@@ -78,20 +78,20 @@ const Footer = () => {
             <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-6">Newsletter</h4>
             <p className="text-sm text-white/80 mb-4">Subscribe to our newsletter</p>
             <form className="relative flex items-center" onSubmit={(e) => e.preventDefault()}>
-              <input 
-                type="email" 
-                placeholder="Your email ..." 
+              <input
+                type="email"
+                placeholder="Your email ..."
                 className="w-full bg-white/5 border border-white/10 rounded-full py-3 pl-5 pr-14 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-secondary transition-colors"
               />
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="absolute right-1.5 w-9 h-9 rounded-full bg-secondary flex items-center justify-center hover:bg-secondary/90 transition-colors shadow-sm"
               >
                 <Send className="w-4 h-4 text-white -ml-0.5" />
               </button>
             </form>
           </div>
-          
+
         </div>
 
         {/* Bottom Section */}
@@ -99,7 +99,7 @@ const Footer = () => {
           <p className="text-xs text-white/50">
             © 2026 <span className="text-white">Finzo</span>. All Rights Reserved.
           </p>
-          
+
           {/* Social Icons */}
           <div className="flex gap-3">
             {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (

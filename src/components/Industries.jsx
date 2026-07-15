@@ -62,10 +62,10 @@ const Industries = () => {
     <section className="py-24 bg-white text-primary">
       <div className="container mx-auto px-6 lg:px-8 container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
-          
+
           {/* Left Column */}
           <div className="flex flex-col items-start lg:sticky lg:top-32">
-            <motion.span 
+            <motion.span
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -73,8 +73,8 @@ const Industries = () => {
             >
               Our Business Flourishes
             </motion.span>
-            
-            <motion.h2 
+
+            <motion.h2
               variants={{
                 visible: { transition: { staggerChildren: 0.05 } },
                 hidden: {}
@@ -94,8 +94,8 @@ const Industries = () => {
                 </motion.span>
               ))}
             </motion.h2>
-            
-            <motion.p 
+
+            <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -104,8 +104,8 @@ const Industries = () => {
             >
               We collaborate with forward-thinking organizations to support initiatives that create measurable global impact.
             </motion.p>
-            
-            <motion.button 
+
+            <motion.button
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -122,7 +122,7 @@ const Industries = () => {
           {/* Right Column (Cards) */}
           <div className="flex flex-col gap-6">
             {industries.map((industry, index) => (
-              <motion.div 
+              <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}

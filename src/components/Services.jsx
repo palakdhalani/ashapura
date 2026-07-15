@@ -67,12 +67,12 @@ const Services = () => {
 
   return (
     <section ref={ref} className="py-24 bg-primary text-white">
-      <div className="container mx-auto px-6 lg:px-8 container ">
-        
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+
         {/* Header Area */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
           <div className="md:w-2/3">
-            <motion.span 
+            <motion.span
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -80,8 +80,8 @@ const Services = () => {
             >
               What We Do
             </motion.span>
-            
-            <motion.h2 
+
+            <motion.h2
               variants={{
                 visible: { transition: { staggerChildren: 0.05 } },
                 hidden: {}
@@ -113,8 +113,8 @@ const Services = () => {
               </span>
             </motion.h2>
           </div>
-          
-          <motion.div 
+
+          <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -128,7 +128,7 @@ const Services = () => {
         </div>
 
         {/* Cards Carousel */}
-        <motion.div 
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -137,7 +137,7 @@ const Services = () => {
           className="flex overflow-x-auto gap-6 pt-6 pb-8 -mt-6 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
         >
           {services.map((service, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               variants={cardVariants}
               whileHover={{ y: -10, transition: { duration: 0.3 } }}
@@ -167,14 +167,14 @@ const Services = () => {
 
         {/* Bottom Area: Line and Nav Buttons */}
         <div className="flex justify-between items-center mt-12">
-          <motion.div 
+          <motion.div
             initial={{ width: 0 }}
             whileInView={{ width: "100%" }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.5 }}
             className="h-1 bg-secondary rounded-full w-full max-w-[200px]"
           ></motion.div>
-          
+
           <div className="flex gap-4">
             <button onClick={() => scroll('left')} className="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center hover:bg-white/10 transition-colors">
               <ChevronLeft className="w-5 h-5 text-white" />

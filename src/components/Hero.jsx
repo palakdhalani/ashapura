@@ -55,7 +55,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-primary/20 z-0"></div>
       </div>
 
-      <div className="flex-1 flex flex-col justify-between px-6 lg:px-50 py-12 relative w-full  mx-auto h-full z-10">
+      <div className="flex-1 flex flex-col justify-between px-4 md:px-8 lg:px-24 py-12 relative w-full mx-auto h-full z-10">
 
         {/* Main Content Area */}
         <div className="flex-1 flex flex-col justify-center w-full pt-10">
@@ -66,7 +66,7 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -20, opacity: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="text-6xl md:text-7xl lg:text-[6.5rem] font-bold text-white leading-[0.95] tracking-tight mb-10 drop-shadow-lg whitespace-pre"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-[6rem] font-bold text-white leading-[1.1] md:leading-[0.95] tracking-tight mb-10 drop-shadow-lg whitespace-pre-wrap md:whitespace-pre"
             >
               {currentData.heading}
             </motion.h1>
@@ -105,7 +105,7 @@ const Hero = () => {
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-          className="absolute right-8 lg:right-12 top-1/2 -translate-y-1/2 flex flex-col gap-5  z-20 "
+          className="absolute right-4 lg:right-12 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-5 z-20"
         >
           <a href="#" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-secondary hover:border-secondary transition-all shadow-lg hover:scale-110">
             <Mail className="w-4 h-4 font-ultrabold" />
@@ -126,7 +126,7 @@ const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.7, ease: "easeOut" }}
-          className="absolute bottom-12 right-24 z-20 flex flex-wrap gap-12 items-end justify-end w-full max-w-3xl pr-12"
+          className="absolute bottom-8 right-4 md:bottom-12 md:right-12 lg:right-24 z-20 flex flex-wrap gap-6 md:gap-12 items-end justify-end w-full max-w-3xl pr-4 md:pr-12"
         >
           {slideData.map((slide) => (
             <div

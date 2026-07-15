@@ -122,7 +122,7 @@ const WhyChooseUs = () => {
             className="lg:col-span-7 relative pt-12 md:pl-12"
           >
             {/* Floating Experience Box with Parallax */}
-            <motion.div style={{ y: yFloatBox }} className="absolute top-0 left-0 z-20">
+            <motion.div style={{ y: yFloatBox }} className="absolute -top-4 -left-2 md:top-0 md:left-0 z-20 scale-75 md:scale-100 origin-top-left">
               <motion.div 
                 initial={{ scale: 0.8, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}

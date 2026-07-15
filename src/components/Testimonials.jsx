@@ -111,7 +111,7 @@ const Testimonials = () => {
             {testimonials.map((testimonial) => (
               <div 
                 key={testimonial.id}
-                className="bg-[#F8F9FA] p-8 md:p-12 rounded-2xl flex flex-col min-w-[320px] md:min-w-[450px] lg:min-w-[550px] shrink-0 snap-start shadow-sm border border-gray-100"
+                className="bg-[#F8F9FA] p-8 md:p-12 rounded-2xl flex flex-col w-[85vw] sm:w-[320px] md:w-auto md:min-w-[450px] lg:min-w-[550px] shrink-0 snap-start shadow-sm border border-gray-100"
               >
                 {/* Card Header */}
                 <div className="flex justify-between items-start mb-8">
