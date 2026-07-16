@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Plus, Minus, ArrowUpRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const faqs = [
   {
@@ -105,10 +106,19 @@ const FAQ = () => {
                 <p className="text-gray-500 text-sm md:text-base leading-relaxed mb-6 max-w-sm">
                   Don't worry we're free for consultation. Contact us and our team will get back to you shortly.
                 </p>
-                <button className="flex items-center gap-3 bg-secondary text-white px-7 py-3.5 rounded-full text-sm font-semibold hover:bg-secondary/90 transition-all shadow-md hover:shadow-lg group">
-                  Contact Us
-                  <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform duration-300" />
-                </button>
+                <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+            >
+                <Link to="/#contact" className="flex items-center gap-3 bg-secondary text-white px-7 py-3.5 rounded-full text-sm font-semibold hover:bg-secondary/90 transition-all shadow-md hover:shadow-lg group inline-flex">
+                    Contact Us
+                    <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                        <ArrowUpRight className="w-4 h-4 text-white group-hover:rotate-45 transition-transform duration-300" />
+                    </div>
+                </Link>
+            </motion.div>
               </motion.div>
             </div>
 

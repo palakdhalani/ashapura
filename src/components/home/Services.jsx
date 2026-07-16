@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { ArrowUpRight, BarChart3, Shield, FileText, PieChart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, useInView } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -120,10 +121,10 @@ const Services = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <button className="flex items-center gap-3 bg-white text-primary px-6 py-3 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors shadow-lg hover:scale-105 transform duration-300">
+            <Link to="/#services" className="flex items-center gap-3 bg-white text-primary px-6 py-3 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors shadow-lg hover:scale-105 transform duration-300 inline-flex">
               View all services
               <ArrowUpRight className="w-4 h-4" />
-            </button>
+            </Link>
           </motion.div>
         </div>
 

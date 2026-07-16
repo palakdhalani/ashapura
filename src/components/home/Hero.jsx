@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUpRight, Mail, Phone, Globe, MessageCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const slideData = [
   {
@@ -78,12 +79,12 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex items-center gap-6"
           >
-            <button className="flex items-center gap-3 bg-secondary text-white pl-6 pr-2 py-2 rounded-full text-lg font-medium hover:bg-secondary/90 transition-transform hover:scale-105 group shadow-xl">
+            <Link to="/#services" className="flex items-center gap-3 bg-secondary text-white pl-6 pr-2 py-2 rounded-full text-lg font-medium hover:bg-secondary/90 transition-transform hover:scale-105 group shadow-xl">
               Financial Services
               <span className="bg-white/20 p-2.5 rounded-full group-hover:bg-white/30 transition-colors">
                 <ArrowUpRight className="w-5 h-5 text-white" />
               </span>
-            </button>
+            </Link>
           </motion.div>
 
           {/* Bottom Left Text */}
@@ -107,18 +108,18 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
           className="absolute right-4 lg:right-12 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-5 z-20"
         >
-          <a href="#" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-secondary hover:border-secondary transition-all shadow-lg hover:scale-110">
+          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
             <Mail className="w-4 h-4 font-ultrabold" />
-          </a>
-          <a href="#" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-secondary hover:border-secondary transition-all shadow-lg hover:scale-110">
+          </Link>
+          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
             <Phone className="w-4 h-4" />
-          </a>
-          <a href="#" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-secondary hover:border-secondary transition-all shadow-lg hover:scale-110">
+          </Link>
+          <Link to="/" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
             <Globe className="w-4 h-4" />
-          </a>
-          <a href="#" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-secondary hover:border-secondary transition-all shadow-lg hover:scale-110">
+          </Link>
+          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
             <MessageCircle className="w-4 h-4" />
-          </a>
+          </Link>
         </motion.div>
 
         {/* Bottom Carousel Navigation */}

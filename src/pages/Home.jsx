@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import About from '../components/About';
-import WhyChooseUs from '../components/WhyChooseUs';
-import Services from '../components/Services';
-import Industries from '../components/Industries';
-import Testimonials from '../components/Testimonials';
-import FAQ from '../components/FAQ';
-import Contact from '../components/Contact';
+import Hero from '../components/home/Hero';
+import About from '../components/home/About';
+import WhyChooseUs from '../components/home/WhyChooseUs';
+import Services from '../components/home/Services';
+import Industries from '../components/home/Industries';
+import Testimonials from '../components/home/Testimonials';
+import FAQ from '../components/home/FAQ';
+import Contact from '../components/home/Contact';
 import Footer from '../components/Footer';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 
@@ -27,19 +27,29 @@ const Home = () => {
       <WhyChooseUs />
       
       {/* Services Section */}
-      <Services />
+      <div id="services">
+        <Services />
+      </div>
 
       {/* Industries Section */}
-      <Industries />
+      <div id="industries">
+        <Industries />
+      </div>
       
       {/* Testimonials Section */}
-      <Testimonials />
+      <div id="testimonials">
+        <Testimonials />
+      </div>
       
       {/* FAQ Section */}
-      <FAQ />
+      <div id="faq">
+        <FAQ />
+      </div>
 
       {/* Contact Section */}
-      <Contact />
+      <div id="contact">
+        <Contact />
+      </div>
       
       {/* Global Scroll to Top Button */}
       <ScrollToTopButton />
