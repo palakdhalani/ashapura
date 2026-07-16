@@ -91,7 +91,7 @@ const WhyChooseUs = () => {
             className="lg:w-3/4"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-primary leading-snug">
-              {"Our consulting approach is centered on understanding each client's goals & delivering tailored strategies that create lasting value & business impact.".split(" ").map((word, index) => (
+              {"Our approach is centered on understanding your goals & delivering tailored financial strategies that create lasting wealth & financial security.".split(" ").map((word, index) => (
                 <motion.span
                   key={index}
                   variants={blurVariants}
@@ -160,7 +160,7 @@ const WhyChooseUs = () => {
             
             <motion.div variants={itemVariants} className="mb-10">
               <h3 className="text-6xl md:text-7xl lg:text-8xl font-bold text-primary mb-2"><AnimatedCounter to={1346} suffix="+" /></h3>
-              <p className="text-gray-500 text-lg">Clients Worldwide</p>
+              <p className="text-gray-500 text-lg">Happy Clients</p>
             </motion.div>
             
             <motion.div variants={itemVariants} className="w-70 h-px bg-gray-300 mb-10"></motion.div>
@@ -168,7 +168,7 @@ const WhyChooseUs = () => {
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
               <div>
                 <h3 className="text-6xl md:text-7xl lg:text-8xl font-bold text-primary mb-2"><AnimatedCounter to={482} suffix="+" /></h3>
-                <p className="text-gray-500 text-lg">Best strategic solutions</p>
+                <p className="text-gray-500 text-lg">Trusted Investments</p>
               </div>
               
               {/* Small Image with Parallax */}

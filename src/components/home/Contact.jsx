@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
               <div className="text-left">
                 <p className="text-xs text-gray-500 mb-1 font-medium">Email Address</p>
-                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">Consulting@Gmail.Com</p>
+                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">official@vwdc.in</p>
               </div>
             </motion.div>
 
@@ -83,7 +83,7 @@ const Contact = () => {
               </div>
               <div className="text-left">
                 <p className="text-xs text-gray-500 mb-1 font-medium">Phone Number</p>
-                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">+1 (123) 456-7890</p>
+                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">+91 90811 14222</p>
               </div>
             </motion.div>
 
@@ -94,7 +94,7 @@ const Contact = () => {
               </div>
               <div className="text-left">
                 <p className="text-xs text-gray-500 mb-1 font-medium">Our Office</p>
-                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">456 Business Ave, NY</p>
+                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">Pride Signet, Rajkot, Gujarat</p>
               </div>
             </motion.div>
           </motion.div>

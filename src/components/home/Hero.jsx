@@ -7,19 +7,19 @@ const slideData = [
   {
     id: 1,
     title: '1. TRUSTED PARTNER',
-    heading: 'Digital Wealth\nConsultant',
+    heading: 'Build Your\nWealth',
     image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
   },
   {
     id: 2,
     title: '2. FINANCIAL SERVICES',
-    heading: 'Expert Financial\nServices',
+    heading: 'Expert Financial\nGuidance',
     image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
   },
   {
     id: 3,
     title: '3. FINANCIAL INVESTING',
-    heading: 'Strategic Investing\nSolutions',
+    heading: 'Strategic Investment\nSolutions',
     image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
   },
 ];
@@ -96,7 +96,7 @@ const Hero = () => {
           >
             <div className="w-12 h-0.5 bg-secondary mb-4 shadow-sm"></div>
             <p className="text-white font-bold tracking-[0.2em] text-xs uppercase max-w-[280px] leading-relaxed drop-shadow-md">
-              How do you merge two financial service players?
+              Your wealth development is our priority.
             </p>
           </motion.div>
         </div>

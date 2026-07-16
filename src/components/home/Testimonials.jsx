@@ -5,31 +5,24 @@ import { motion } from 'framer-motion';
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Mitchell",
-    role: "Small Business Owner",
-    text: "This team has been an invaluable partner in navigating the complexities of our business growth.",
-    image: "https://randomuser.me/api/portraits/women/44.jpg"
+    name: "Amit S.",
+    role: "Happy Client",
+    text: "VWDC transformed the way I look at investing. Their personalized retirement plan has given me complete peace of mind.",
+    image: "https://randomuser.me/api/portraits/men/44.jpg"
   },
   {
     id: 2,
-    name: "James Carter",
-    role: "Tech Entrepreneur",
-    text: "Their strategic financial guidance helped us scale rapidly while minimizing risks.",
-    image: "https://randomuser.me/api/portraits/men/32.jpg"
+    name: "Priya P.",
+    role: "Business Owner",
+    text: "Securing a business loan was a breeze with VWDC. Their team guided us through every step with absolute transparency and speed.",
+    image: "https://randomuser.me/api/portraits/women/32.jpg"
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
-    role: "Startup Founder",
-    text: "An exceptional consulting firm that truly understands the dynamic needs of modern markets.",
-    image: "https://randomuser.me/api/portraits/women/68.jpg"
-  },
-  {
-    id: 4,
-    name: "Michael Chen",
-    role: "Corporate Executive",
-    text: "The tailored strategies they provided created lasting value and measurable global impact for us.",
-    image: "https://randomuser.me/api/portraits/men/46.jpg"
+    name: "Rajesh K.",
+    role: "Investor",
+    text: "Trust and expertise are rare to find together, but VWDC delivers both. My portfolio has seen consistent growth since I partnered with them.",
+    image: "https://randomuser.me/api/portraits/men/68.jpg"
   }
 ];
 
@@ -91,7 +84,7 @@ const Testimonials = () => {
             transition={{ delay: 0.2 }}
             className="text-gray-500 leading-relaxed text-sm md:text-base max-w-xl"
           >
-            Specializing in financial strategy, wealth management, and operational efficiency, we advocate for our clients and stakeholders to ensure long-term success.
+            Our clients trust us to deliver expert financial strategies, wealth management, and seamless loan solutions that ensure long-term growth and success.
           </motion.p>
         </div>
 

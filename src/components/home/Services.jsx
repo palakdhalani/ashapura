@@ -5,34 +5,40 @@ import { Link } from 'react-router-dom';
 
 const services = [
   {
-    title: 'Financial planning',
-    description: 'Plan, invest, and grow your wealth with expert financial guidance.',
+    title: 'Investment Planning',
+    description: 'Strategic and diversified investment plans designed to maximize returns and secure your future.',
     icon: BarChart3,
     image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
-    title: 'Risk Management',
-    description: 'Comprehensive strategies to manage financial, and strategic risks.',
+    title: 'Wealth Management',
+    description: 'Holistic management of your assets, ensuring steady growth and risk mitigation.',
     icon: Shield,
     image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
-    title: 'Tax Advisory',
-    description: 'Minimize liabilities through smart, tailored tax solutions.',
+    title: 'Loan Assistance',
+    description: 'Tailored loan solutions with competitive rates and hassle-free processing.',
     icon: FileText,
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
-    title: 'Asset Management',
-    description: 'Grow and protect wealth with expert asset management strategies.',
+    title: 'Corporate Bonds',
+    description: 'Secure and high-yield corporate bond investments to diversify your portfolio.',
     icon: PieChart,
     image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
-    title: 'Wealth Strategy',
-    description: 'Customized approaches to build and preserve long-term generational wealth.',
+    title: 'Retirement Planning',
+    description: 'Forward-thinking strategies to build a substantial corpus for a comfortable retirement.',
     icon: ArrowUpRight,
     image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    title: 'Financial Consulting',
+    description: 'Expert, unbiased advice to help you navigate financial challenges and optimize tax strategies.',
+    icon: FileText,
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   }
 ];
 
@@ -92,7 +98,7 @@ const Services = () => {
               viewport={{ once: true }}
               className="text-4xl md:text-5xl lg:text-6xl font-medium leading-tight"
             >
-              {"Covering the Full Spectrum of Global ".split(" ").map((word, index) => (
+              {"Comprehensive and Trusted ".split(" ").map((word, index) => (
                 <motion.span
                   key={`w1-${index}`}
                   variants={blurVariants}
@@ -102,7 +108,7 @@ const Services = () => {
                 </motion.span>
               ))}
               <span className="text-secondary inline-block">
-                {"Financial Services".split(" ").map((word, index) => (
+                {"Financial Solutions".split(" ").map((word, index) => (
                   <motion.span
                     key={`w2-${index}`}
                     variants={blurVariants}

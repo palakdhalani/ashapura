@@ -4,38 +4,28 @@ import { motion } from 'framer-motion';
 
 const industries = [
   {
-    title: 'Construction',
-    description: 'We work closely with social and public sector organizations to create meaningful impact and drive sustainable change.',
+    title: 'Consultation',
+    description: 'We begin by understanding your current financial standing, aspirations, and challenges.',
     icon: Presentation
   },
   {
-    title: 'Investment management',
-    description: 'We provide strategic investment management services designed to grow and protect your wealth.',
+    title: 'Financial Assessment',
+    description: 'Our experts conduct a thorough analysis of your assets, liabilities, and risk tolerance.',
     icon: Banknote
   },
   {
-    title: 'Advanced manufacturing',
-    description: 'We empower manufacturers to stay ahead by adopting next-generation technologies and smarter production methods.',
+    title: 'Customized Plan',
+    description: 'We design a tailored roadmap featuring the best investment and loan strategies for you.',
     icon: Activity
   },
   {
-    title: 'Digital Transformation',
-    description: 'Guiding organizations through comprehensive digital upgrades to enhance operational efficiency.',
+    title: 'Investment & Execution',
+    description: 'We seamlessly implement the plan, allocating resources to the right financial instruments.',
     icon: Presentation
   },
   {
-    title: 'Supply Chain Logistics',
-    description: 'Optimizing global supply chains for resilience, speed, and cost-effectiveness.',
-    icon: Banknote
-  },
-  {
-    title: 'Digital Transformation',
-    description: 'Guiding organizations through comprehensive digital upgrades to enhance operational efficiency.',
-    icon: Presentation
-  },
-  {
-    title: 'Supply Chain Logistics',
-    description: 'Optimizing global supply chains for resilience, speed, and cost-effectiveness.',
+    title: 'Ongoing Support',
+    description: 'We continuously monitor your portfolio, providing regular updates and rebalancing strategies as needed.',
     icon: Banknote
   }
 ];
@@ -71,7 +61,7 @@ const Industries = () => {
               viewport={{ once: true }}
               className="inline-block px-4 py-1 text-md font-bold tracking-wider text-red-500 uppercase mb-6"
             >
-              Our Business Flourishes
+              Our Process
             </motion.span>
 
             <motion.h2
@@ -84,7 +74,7 @@ const Industries = () => {
               viewport={{ once: true }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6 text-primary"
             >
-              {"Proven Experience, Unlimited Industries".split(" ").map((word, index) => (
+              {"Our Simple Path to Financial Success".split(" ").map((word, index) => (
                 <motion.span
                   key={index}
                   variants={blurVariants}
@@ -102,7 +92,7 @@ const Industries = () => {
               transition={{ delay: 0.3 }}
               className="text-gray-500 leading-relaxed mb-10 max-w-md text-sm md:text-base"
             >
-              We collaborate with forward-thinking organizations to support initiatives that create measurable global impact.
+              We follow a streamlined, transparent process to ensure your financial goals are met with precision and care.
             </motion.p>
 
             <motion.button

@@ -5,24 +5,20 @@ import { Link } from 'react-router-dom';
 
 const faqs = [
   {
-    question: "What financial services do you specialize in?",
-    answer: "We specialize in a comprehensive range of financial services including investment management, strategic financial planning, tax advisory, and risk management tailored to your specific business needs."
+    question: "How do I start investing with VWDC?",
+    answer: "Getting started is easy! Simply contact us to book an initial consultation. Our advisors will sit with you to assess your goals and create a custom investment plan."
   },
   {
-    question: "How do you tailor strategies for different industries?",
-    answer: "Our expert consultants conduct deep market analysis and work closely with your stakeholders to understand unique industry challenges, ensuring our strategies create measurable global impact."
+    question: "Which investment option is right for me?",
+    answer: "The right option depends on your financial goals, timeline, and risk tolerance. We offer everything from mutual funds and corporate bonds to custom wealth management to suit your specific needs."
   },
   {
-    question: "Is there an initial consultation fee?",
-    answer: "No, we offer a complimentary initial consultation to understand your goals, assess your current financial standing, and determine how our expertise can bring you the most value."
+    question: "Do you provide loan consultation?",
+    answer: "Yes, we provide comprehensive loan assistance. We help you secure personal, business, or home loans with the best possible terms and minimal hassle."
   },
   {
-    question: "How is my financial data secured?",
-    answer: "We use state-of-the-art encryption and strictly adhere to global financial security standards to ensure your sensitive data is always protected."
-  },
-  {
-    question: "Can I upgrade or adjust my service plan anytime?",
-    answer: "Absolutely. We understand that business needs evolve, so our service agreements are flexible and can be scaled up or down as your requirements change."
+    question: "How can I book an appointment?",
+    answer: "You can book an appointment by clicking the 'Get Consultation' button on our website, calling us directly at +91-9081114222, or emailing us at official@vwdc.in."
   }
 ];
 
