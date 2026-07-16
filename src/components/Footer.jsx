@@ -35,16 +35,16 @@ const Footer = () => {
             <div>
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Location</h4>
               <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors cursor-pointer">
-                123 Business Street, Suite 456<br />
-                New York, NY 10001, USA
+                Pride Signet, Office No. 706-708<br />
+                Raiya Telephone Exchange, Rajkot, Gujarat
               </p>
             </div>
 
             <div>
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Contact Us</h4>
               <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors cursor-pointer">
-                +1 (406) 555-0120<br />
-                hello@example.com
+                +91 90811 14222<br />
+                official@vwdc.in
               </p>
             </div>
           </div>
@@ -91,8 +91,13 @@ const Footer = () => {
             </form>
             {/* Social Icons */}
             <div className="flex gap-3 mt-6">
-              {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                <a key={i} href="#" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors group">
+              {[
+                { Icon: Facebook, link: "https://www.facebook.com/VishwasWealthDevelopmentCorporation/" },
+                { Icon: Twitter, link: "#" },
+                { Icon: Instagram, link: "https://www.instagram.com/v_w_d_c/" },
+                { Icon: Linkedin, link: "#" }
+              ].map(({ Icon, link }, i) => (
+                <a key={i} href={link} target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors group">
                   <Icon className="w-4 h-4 text-white group-hover:text-white" />
                 </a>
               ))}
@@ -104,7 +109,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           <p className="text-xs text-white/50">
-            © 2026 <span className="text-white">Finzo</span>. All Rights Reserved.
+            © 2026 <span className="text-white">VWDC</span>. All Rights Reserved.
           </p>
 
           {/* Designed By */}
