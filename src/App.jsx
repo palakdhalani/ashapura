@@ -5,11 +5,13 @@ import AboutUs from './pages/AboutUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
 import ScrollToTop from './components/ScrollToTop';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <FloatingWhatsApp />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />

@@ -24,7 +24,7 @@ const ConsultationCTA = () => {
             </p>
             
             <Link 
-              to="/contact" 
+              to="/#contact" 
               className="inline-flex items-center gap-2 bg-[#0a192f] text-white px-6 py-3 rounded-md font-bold text-xs md:text-sm tracking-wide hover:bg-[#112a52] transition-colors"
             >
               SCHEDULE CONSULTATION

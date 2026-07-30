@@ -13,14 +13,10 @@ import FAQ from '../components/home/FAQ';
 const AboutUs = () => {
   return (
     <div className="font-sans bg-white min-h-screen flex flex-col">
-      {/* 
-        Provide a dark background block for the fixed Navbar since this page has a light background.
-      */}
-      <div className="bg-primary h-[88px] md:h-[96px] w-full shrink-0">
-        <Navbar />
+      <Navbar />
+      <div className="pt-20 md:pt-24">
+        <AboutHero />
       </div>
-
-      <AboutHero />
       <MissionVision />
       <Industries />
       <ConsultationCTA />

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
 import logoImg from '../assets/image-removebg-preview.png';
@@ -79,29 +79,32 @@ const Navbar = () => {
     return false;
   };
 
+  const isHomePage = location.pathname === '/';
+  const showSolidNav = isScrolled || !isHomePage;
+
   return (
     <motion.nav
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       className={`fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4 md:px-8 lg:px-24 mx-auto transition-all duration-300 ${
-        isScrolled ? 'py-4 bg-white text-primary shadow-md' : 'py-6 bg-transparent text-white'
+        showSolidNav ? 'py-3.5 bg-white text-primary shadow-md border-b border-gray-100' : 'py-6 bg-transparent text-white'
       }`}
     >
       {/* Logo */}
       <Link to="/" className="flex items-center cursor-pointer group z-50">
-        <img src={logoImg} alt="Finzo Logo" className="h-16 md:h-20 w-auto group-hover:scale-105 transition-transform duration-300" />
+        <img src={logoImg} alt="VWDC Logo" className="h-14 md:h-16 w-auto group-hover:scale-105 transition-transform duration-300" />
       </Link>
 
       {/* Center Links */}
-      <div className={`hidden lg:flex items-center gap-1 backdrop-blur-md rounded-full px-2 py-1.5 ${isScrolled ? 'bg-black/5' : 'bg-white/10'}`}>
+      <div className={`hidden lg:flex items-center gap-1 backdrop-blur-md rounded-full px-2 py-1.5 ${showSolidNav ? 'bg-primary/5' : 'bg-white/10'}`}>
         {navLinks.map((link) => (
           <Link
             key={link.name}
             to={link.path}
             className={`px-5 py-2 rounded-full text-sm font-medium transition-colors ${isActive(link.path)
-              ? (isScrolled ? 'bg-primary/10 text-primary font-bold' : 'bg-white/20 text-white font-bold')
-              : (isScrolled ? 'text-primary/70 hover:bg-primary/5 hover:text-primary' : 'text-white/80 hover:bg-white/10 hover:text-white')
+              ? (showSolidNav ? 'bg-primary text-white font-bold' : 'bg-white/20 text-white font-bold')
+              : (showSolidNav ? 'text-primary/80 hover:bg-primary/10 hover:text-primary' : 'text-white/80 hover:bg-white/10 hover:text-white')
               }`}
           >
             {link.name}
@@ -111,15 +114,12 @@ const Navbar = () => {
 
       {/* Right Actions */}
       <div className="flex items-center gap-6">
-        {/* <button className={`transition-colors hidden sm:block ${isScrolled ? 'text-primary hover:text-secondary' : 'text-white hover:text-secondary'}`}>
-          <Search className="w-5 h-5" />
-        </button> */}
         <Link to="/#contact" className="hidden md:flex items-center gap-2 bg-secondary text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-secondary/90 transition-transform hover:scale-105 shadow-lg">
           Contact Us
           <div className="w-1.5 h-1.5 bg-white rounded-full ml-1"></div>
         </Link>
         <button 
-          className={`transition-colors lg:hidden ${isScrolled ? 'text-primary hover:text-secondary' : 'text-white hover:text-secondary'}`}
+          className={`transition-colors lg:hidden ${showSolidNav ? 'text-primary hover:text-secondary' : 'text-white hover:text-secondary'}`}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}

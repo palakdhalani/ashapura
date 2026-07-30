@@ -112,10 +112,11 @@ const Footer = () => {
             © 2026 <span className="text-white">VWDC</span>. All Rights Reserved.
           </p>
 
-          {/* Designed By */}
+          {/* Designed By 
           <div className="text-xs text-white/50 text-center">
             Designed and Developed by <a href="#" className="text-red-500 font-bold animate-pulse text-sm ml-1 hover:text-red-400 transition-colors">Code Clovers</a>
           </div>
+          */}
 
           <div className="text-xs text-white/50 flex gap-4">
             <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>

@@ -8,30 +8,28 @@ const TermsAndConditions = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <div className="bg-primary">
-        <Navbar />
-      </div>
+    <div className="min-h-screen flex flex-col font-sans">
+      <Navbar />
       
-      <main className="flex-grow pt-16 pb-24 bg-white">
+      <main className="flex-grow pt-28 md:pt-36 pb-24 bg-white">
         <div className="container mx-auto px-6 lg:px-8 container">
           <div className="mb-12 border-b border-gray-100 pb-8">
-            <h1 className="text-4xl md:text-5xl font-medium text-primary mb-4">Terms & Conditions</h1>
-            <p className="text-gray-500">Last Updated: July 2026</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">Terms & Conditions</h1>
+            <p className="text-gray-500 font-medium">Last Updated: July 2026</p>
           </div>
           
           <div className="text-gray-600 space-y-8 leading-relaxed">
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">1. Agreement to Terms</h2>
               <p>
-                By engaging with Finzo for Investment Management & Financial Services, or by using our website and client portals, you agree to be bound by these Terms & Conditions. Please read them carefully before making any investment decisions.
+                By engaging with Vishwas Wealth Development Corporation (VWDC) for Investment Management & Financial Services, or by using our website and client portals, you agree to be bound by these Terms & Conditions. Please read them carefully before making any investment decisions.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">2. Services Provided</h2>
               <p>
-                Finzo provides comprehensive financial advisory, portfolio management, wealth strategy, and related financial services. All recommendations and investment decisions are made based on the financial profile, risk tolerance, and objectives you provide to us.
+                Vishwas Wealth Development Corporation (VWDC) provides comprehensive financial advisory, portfolio management, wealth strategy, and related financial services. All recommendations and investment decisions are made based on the financial profile, risk tolerance, and objectives you provide to us.
               </p>
             </section>
 
@@ -62,14 +60,14 @@ const TermsAndConditions = () => {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">6. Limitation of Liability</h2>
               <p>
-                Finzo and its advisors shall not be held liable for any loss resulting from market fluctuations, general economic downturns, or actions taken in good faith based on the information you have provided. Our liability is strictly limited to cases of gross negligence or willful misconduct as defined by applicable securities laws.
+                VWDC and its advisors shall not be held liable for any loss resulting from market fluctuations, general economic downturns, or actions taken in good faith based on the information you have provided. Our liability is strictly limited to cases of gross negligence or willful misconduct as defined by applicable securities laws.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">7. Governing Law</h2>
               <p>
-                These Terms & Conditions and any disputes arising out of your relationship with Finzo shall be governed by and construed in accordance with the laws of the jurisdiction in which our primary office is located, without regard to its conflict of law principles.
+                These Terms & Conditions and any disputes arising out of your relationship with VWDC shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.
               </p>
             </section>
           </div>

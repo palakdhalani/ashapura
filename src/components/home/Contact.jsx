@@ -2,6 +2,8 @@ import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+import InquiryForm from './InquiryForm';
+
 const Contact = () => {
   const fadeUpVariants = {
     hidden: { opacity: 0, y: 30 },
@@ -31,7 +33,7 @@ const Contact = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block px-6 py-1.5 rounded-full  text-md font-bold tracking-wider text-red-500 uppercase mb-8 "
+            className="inline-block px-6 py-1.5 rounded-full text-md font-bold tracking-wider text-red-500 uppercase mb-8"
           >
             Contact Us
           </motion.span>
@@ -101,7 +103,7 @@ const Contact = () => {
         </div>
 
         {/* Bottom Section: Map & Form */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
           
           {/* Map */}
           <motion.div 
@@ -109,7 +111,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="rounded-3xl overflow-hidden h-[400px] lg:h-[550px] shadow-sm bg-gray-200"
+            className="rounded-[32px] overflow-hidden shadow-xl shadow-gray-200/40 border border-gray-100/80 bg-gray-100 min-h-[450px] lg:min-h-full h-full flex flex-col"
           >
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3!1d193595.2528001097!2d-74.14448744577884!3d40.69766374859258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1709664531393!5m2!1sen!2s" 
@@ -119,6 +121,7 @@ const Contact = () => {
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-full flex-1"
             ></iframe>
           </motion.div>
 
@@ -128,53 +131,9 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-white p-8 md:p-10 lg:p-12 rounded-3xl shadow-sm border border-gray-50"
+            className="h-full flex flex-col"
           >
-            <form className="flex flex-col gap-6" onSubmit={(e) => e.preventDefault()}>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-bold mb-3 text-primary">Your Name</label>
-                  <input 
-                    type="text" 
-                    placeholder="Your name" 
-                    className="w-full px-5 py-4 rounded-xl bg-[#F8F9FA] border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all text-sm"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-bold mb-3 text-primary">Last Name</label>
-                  <input 
-                    type="text" 
-                    placeholder="Your last name" 
-                    className="w-full px-5 py-4 rounded-xl bg-[#F8F9FA] border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all text-sm"
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label className="block text-sm font-bold mb-3 text-primary">Email address</label>
-                <input 
-                  type="email" 
-                  placeholder="Your email address" 
-                  className="w-full px-5 py-4 rounded-xl bg-[#F8F9FA] border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all text-sm"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-bold mb-3 text-primary">Message</label>
-                <textarea 
-                  placeholder="Write something..." 
-                  rows="5" 
-                  className="w-full px-5 py-4 rounded-xl bg-[#F8F9FA] border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all resize-none text-sm"
-                ></textarea>
-              </div>
-
-              <button 
-                type="submit" 
-                className="w-full py-4 mt-4 bg-secondary text-white rounded-xl font-bold hover:bg-secondary/90 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
-              >
-                Submit
-              </button>
-            </form>
+            <InquiryForm />
           </motion.div>
 
         </div>
