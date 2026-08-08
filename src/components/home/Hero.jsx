@@ -14,13 +14,13 @@ const slideData = [
     id: 2,
     title: '2. FINANCIAL SERVICES',
     heading: 'Expert Financial\nGuidance',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
   },
   {
     id: 3,
     title: '3. FINANCIAL INVESTING',
     heading: 'Strategic Investment\nSolutions',
-    image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
+    image: 'https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
   },
 ];
 
@@ -127,7 +127,7 @@ const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.7, ease: "easeOut" }}
-          className="absolute bottom-8 right-4 md:bottom-12 md:right-12 lg:right-24 z-20 flex flex-wrap gap-6 md:gap-12 items-end justify-end w-full max-w-3xl pr-4 md:pr-12"
+          className="absolute bottom-8 left-0 w-full px-4 md:px-0 md:left-auto md:bottom-12 md:right-12 lg:right-24 z-20 flex flex-wrap gap-2 md:gap-12 items-end justify-start md:justify-end max-w-3xl md:pr-12"
         >
           {slideData.map((slide) => (
             <div
