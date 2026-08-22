@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const faqs = [
   {
-    question: "How do I start investing with VWDC?",
+    question: "How do I start investing with Vishwas Development Corporation LLP?",
     answer: "Getting started is easy! Simply contact us to book an initial consultation. Our advisors will sit with you to assess your goals and create a custom investment plan."
   },
   {

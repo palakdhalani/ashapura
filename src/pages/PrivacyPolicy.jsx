@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">1. Introduction</h2>
               <p>
-                At Vishwas Wealth Development Corporation (VWDC), we specialize in Investment Management and Financial Services. We understand that trust is the foundation of our relationship with our clients. This Privacy Policy outlines how we collect, use, protect, and disclose your personal and financial information when you use our services.
+                At Vishwas Development Corporation LLP, we specialize in Investment Management and Financial Services. We understand that trust is the foundation of our relationship with our clients. This Privacy Policy outlines how we collect, use, protect, and disclose your personal and financial information when you use our services.
               </p>
             </section>
 

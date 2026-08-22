@@ -93,7 +93,7 @@ const Navbar = () => {
     >
       {/* Logo */}
       <Link to="/" className="flex items-center cursor-pointer group z-50">
-        <img src={logoImg} alt="VWDC Logo" className="h-14 md:h-16 w-auto group-hover:scale-105 transition-transform duration-300" />
+        <img src={logoImg} alt="Vishwas Development Corporation LLP Logo" className="h-14 md:h-16 w-auto group-hover:scale-105 transition-transform duration-300" />
       </Link>
 
       {/* Center Links */}

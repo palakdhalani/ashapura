@@ -79,7 +79,7 @@ const About = () => {
               variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
               className="text-gray-600 mb-8 leading-relaxed text-sm sm:text-base"
             >
-              At Vishwas Wealth Development Corporation (VWDC), we believe that financial security is the foundation of a prosperous future. Our mission is to empower individuals and businesses with trusted, personalized investment and loan solutions tailored to their unique financial goals.
+              At VISHWAS DEVELOPMENT CORPORATION LLP, we believe that financial security is the foundation of a prosperous future. Our mission is to empower individuals and businesses with trusted, personalized investment and loan solutions tailored to their unique financial goals.
             </motion.p>
 
             <motion.button

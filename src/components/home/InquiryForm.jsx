@@ -77,7 +77,7 @@ const InquiryForm = () => {
       `Email: ${formData.email}\n` +
       `Phone: ${fullPhone}\n` +
       `Subject: ${formData.subject}\n\n` +
-      `Sent from VWDC Website Inquiry Form`
+      `Sent from Vishwas Development Corporation LLP Website Inquiry Form`
     );
 
     const mailtoUrl = `mailto:official@vwdc.in?subject=${mailtoSubject}&body=${mailtoBody}`;

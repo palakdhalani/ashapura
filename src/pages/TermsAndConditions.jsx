@@ -22,14 +22,14 @@ const TermsAndConditions = () => {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">1. Agreement to Terms</h2>
               <p>
-                By engaging with Vishwas Wealth Development Corporation (VWDC) for Investment Management & Financial Services, or by using our website and client portals, you agree to be bound by these Terms & Conditions. Please read them carefully before making any investment decisions.
+                By engaging with Vishwas Development Corporation LLP for Investment Management & Financial Services, or by using our website and client portals, you agree to be bound by these Terms & Conditions. Please read them carefully before making any investment decisions.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">2. Services Provided</h2>
               <p>
-                Vishwas Wealth Development Corporation (VWDC) provides comprehensive financial advisory, portfolio management, wealth strategy, and related financial services. All recommendations and investment decisions are made based on the financial profile, risk tolerance, and objectives you provide to us.
+                Vishwas Development Corporation LLP provides comprehensive financial advisory, portfolio management, wealth strategy, and related financial services. All recommendations and investment decisions are made based on the financial profile, risk tolerance, and objectives you provide to us.
               </p>
             </section>
 
@@ -60,14 +60,14 @@ const TermsAndConditions = () => {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">6. Limitation of Liability</h2>
               <p>
-                VWDC and its advisors shall not be held liable for any loss resulting from market fluctuations, general economic downturns, or actions taken in good faith based on the information you have provided. Our liability is strictly limited to cases of gross negligence or willful misconduct as defined by applicable securities laws.
+                Vishwas Development Corporation LLP and its advisors shall not be held liable for any loss resulting from market fluctuations, general economic downturns, or actions taken in good faith based on the information you have provided. Our liability is strictly limited to cases of gross negligence or willful misconduct as defined by applicable securities laws.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">7. Governing Law</h2>
               <p>
-                These Terms & Conditions and any disputes arising out of your relationship with VWDC shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.
+                These Terms & Conditions and any disputes arising out of your relationship with Vishwas Development Corporation LLP shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.
               </p>
             </section>
           </div>

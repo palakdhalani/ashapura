@@ -96,7 +96,13 @@ const Contact = () => {
               </div>
               <div className="text-left">
                 <p className="text-xs text-gray-500 mb-1 font-medium">Our Office</p>
-                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">Pride Signet, Rajkot, Gujarat</p>
+                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">
+                  VISHWAS DEVELOPMENT CORPORATION LLP<br />
+                  7th Floor, Office No. 708, 707<br />
+                  Pride Signet, Raiya Telephone Exhange<br />
+                  150 Feet Ring Road, Opp. B.R.T.S. Bus Stop<br />
+                  Rajkot - 360005
+                </p>
               </div>
             </motion.div>
           </motion.div>

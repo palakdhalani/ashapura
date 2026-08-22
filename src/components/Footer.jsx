@@ -28,15 +28,18 @@ const Footer = () => {
 
             <div className="flex items-center gap-2">
               <Link to="/" className="group cursor-pointer inline-block bg-white p-3 rounded-xl shadow-lg">
-                <img src={logoImg} alt="VWDC Logo" className="h-18 w-auto group-hover:scale-105 transition-transform duration-300" />
+                <img src={logoImg} alt="Vishwas Development Corporation LLP Logo" className="h-18 w-auto group-hover:scale-105 transition-transform duration-300" />
               </Link>
             </div>
 
             <div>
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Location</h4>
               <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors cursor-pointer">
-                Pride Signet, Office No. 706-708<br />
-                Raiya Telephone Exchange, Rajkot, Gujarat
+                VISHWAS DEVELOPMENT CORPORATION LLP<br />
+                7th Floor, Office No. 708, 707<br />
+                Pride Signet, Raiya Telephone Exhange<br />
+                150 Feet Ring Road, Opp. B.R.T.S. Bus Stop<br />
+                Rajkot - 360005
               </p>
             </div>
 
@@ -109,7 +112,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           <p className="text-xs text-white/50">
-            © 2026 <span className="text-white">VWDC</span>. All Rights Reserved.
+            © 2026 <span className="text-white">Vishwas Development Corporation LLP</span>. All Rights Reserved.
           </p>
 
           {/* Designed By 

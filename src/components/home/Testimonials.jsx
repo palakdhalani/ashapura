@@ -7,21 +7,21 @@ const testimonials = [
     id: 1,
     name: "Amit S.",
     role: "Happy Client",
-    text: "VWDC transformed the way I look at investing. Their personalized retirement plan has given me complete peace of mind.",
+    text: "Vishwas Development Corporation LLP transformed the way I look at investing. Their personalized retirement plan has given me complete peace of mind.",
     image: "https://randomuser.me/api/portraits/men/44.jpg"
   },
   {
     id: 2,
     name: "Priya P.",
     role: "Business Owner",
-    text: "Securing a business loan was a breeze with VWDC. Their team guided us through every step with absolute transparency and speed.",
+    text: "Securing a business loan was a breeze with Vishwas Development Corporation LLP. Their team guided us through every step with absolute transparency and speed.",
     image: "https://randomuser.me/api/portraits/women/32.jpg"
   },
   {
     id: 3,
     name: "Rajesh K.",
     role: "Investor",
-    text: "Trust and expertise are rare to find together, but VWDC delivers both. My portfolio has seen consistent growth since I partnered with them.",
+    text: "Trust and expertise are rare to find together, but Vishwas Development Corporation LLP delivers both. My portfolio has seen consistent growth since I partnered with them.",
     image: "https://randomuser.me/api/portraits/men/68.jpg"
   }
 ];
