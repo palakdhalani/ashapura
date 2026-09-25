@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { ArrowUpRight, ArrowUp } from 'lucide-react';
 import { motion, useScroll, useTransform, useSpring, useInView } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const AnimatedCounter = ({ from = 0, to, duration = 2, suffix = "" }) => {
   const [count, setCount] = useState(from);
