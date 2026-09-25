@@ -5,23 +5,23 @@ import { motion } from 'framer-motion';
 const testimonials = [
   {
     id: 1,
-    name: "Amit S.",
-    role: "Happy Client",
-    text: "Vishwas Development Corporation LLP transformed the way I look at investing. Their personalized retirement plan has given me complete peace of mind.",
+    name: "Ramesh Patel",
+    role: "Foundry Owner, Rajkot",
+    text: "Shree Ashapura Enterprise has been our go-to supplier for Cast Iron and Copper scrap. Their grading accuracy, low melting loss, and prompt weighbridge slips make trade completely reliable.",
     image: "https://randomuser.me/api/portraits/men/44.jpg"
   },
   {
     id: 2,
-    name: "Priya P.",
-    role: "Business Owner",
-    text: "Securing a business loan was a breeze with Vishwas Development Corporation LLP. Their team guided us through every step with absolute transparency and speed.",
-    image: "https://randomuser.me/api/portraits/women/32.jpg"
+    name: "Suresh Shah",
+    role: "Paper Mill Procurement Head, Morbi",
+    text: "We procure Old Newspaper (ONP) and Kraft paper scrap in regular monthly bulk lots. The baling density and moisture control consistently meet our strict recycling requirements.",
+    image: "https://randomuser.me/api/portraits/men/32.jpg"
   },
   {
     id: 3,
-    name: "Rajesh K.",
-    role: "Investor",
-    text: "Trust and expertise are rare to find together, but Vishwas Development Corporation LLP delivers both. My portfolio has seen consistent growth since I partnered with them.",
+    name: "Jayesh Vora",
+    role: "Aluminum Extrusions & Castings, Gujarat",
+    text: "Spot pricing transparency and zero hassle in logistics. Sourcing high-purity aluminum scrap from Shree Ashapura Enterprise has significantly optimized our furnace yield.",
     image: "https://randomuser.me/api/portraits/men/68.jpg"
   }
 ];
@@ -56,7 +56,7 @@ const Testimonials = () => {
         
         {/* Header Section */}
         <div className="max-w-2xl mb-16">
-          <Quote className="w-12 h-12 text-red-500 mb-6 rotate-180 opacity-80" />
+          <Quote className="w-12 h-12 text-secondary mb-6 rotate-180 opacity-80" />
           <motion.h2 
             variants={{
               visible: { transition: { staggerChildren: 0.05 } },

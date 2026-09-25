@@ -5,20 +5,24 @@ import { Link } from 'react-router-dom';
 
 const faqs = [
   {
-    question: "How do I start investing with Vishwas Development Corporation LLP?",
-    answer: "Getting started is easy! Simply contact us to book an initial consultation. Our advisors will sit with you to assess your goals and create a custom investment plan."
+    question: "What types of metal scrap do you supply?",
+    answer: "We supply high-purity Copper Scrap (Millberry wire, copper pipes, turnings), Iron Scrap (Heavy Melting Scrap HMS 1 & 2, cast iron, structural steel), and Aluminum Scrap (6063 extrusions, sheets, wire scrap) in custom or bulk lots."
   },
   {
-    question: "Which investment option is right for me?",
-    answer: "The right option depends on your financial goals, timeline, and risk tolerance. We offer everything from mutual funds and corporate bonds to custom wealth management to suit your specific needs."
+    question: "What grades of waste paper do you trade?",
+    answer: "We provide Old News Paper Scrap (ONP), News Paper Scrap (OINP / unprinted newsprint waste), and Waste Paper Craft (OCC corrugated cardboard and kraft clippings) baled for paper mills."
   },
   {
-    question: "Do you provide loan consultation?",
-    answer: "Yes, we provide comprehensive loan assistance. We help you secure personal, business, or home loans with the best possible terms and minimal hassle."
+    question: "How are scrap weight and quality verified?",
+    answer: "All shipments undergo weighbridge measurement on government-certified digital scales with instant weight slips. We inspect purity, moisture, and grading before dispatch to guarantee minimal melting loss."
   },
   {
-    question: "How can I book an appointment?",
-    answer: "You can book an appointment by clicking the 'Get Consultation' button on our website, calling us directly at +91-9081114222, or emailing us at official@vwdc.in."
+    question: "Do you supply bulk orders across Gujarat and India?",
+    answer: "Yes, we handle daily and monthly contract supplies for foundries, induction furnaces, and paper recycling plants across Rajkot, Morbi, Ahmedabad, Gujarat, and pan-India."
+  },
+  {
+    question: "How can I get current spot rates or request a quotation?",
+    answer: "You can reach us directly at +91 93750 77636, connect with us on WhatsApp, or submit an inquiry using our online form for real-time market quotations."
   }
 ];
 
@@ -63,7 +67,7 @@ const FAQ = () => {
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  className="inline-flex items-center gap-2  py-1 rounded-full text-xl font-bold tracking-wider text-red-500 uppercase mb-8"
+                  className="inline-flex items-center gap-2 py-1 rounded-full text-xl font-bold tracking-wider text-secondary uppercase mb-8"
                 >FAQ
                  
                 </motion.span>

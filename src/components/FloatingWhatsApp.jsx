@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const FloatingWhatsApp = () => {
-  const whatsappNumber = '919081114222';
-  const defaultMessage = encodeURIComponent('Hello Vishwas Development Corporation LLP Team, I have an inquiry regarding your wealth management & financial services.');
+  const whatsappNumber = '919375077636';
+  const defaultMessage = encodeURIComponent('Hello Shree Ashapura Enterprise Team, I have an inquiry regarding your services.');
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${defaultMessage}`;
 
   return (

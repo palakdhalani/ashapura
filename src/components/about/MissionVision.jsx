@@ -32,7 +32,7 @@ const MissionVision = () => {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight"
           >
-            {"Empowering your financial future through strategic insight".split(" ").map((word, index) => (
+            {"Pioneering Sustainable Circular Economy in Metals & Paper".split(" ").map((word, index) => (
               <motion.span
                 key={index}
                 variants={blurVariants}
@@ -43,7 +43,7 @@ const MissionVision = () => {
             ))}
           </motion.h2>
           <p className="text-gray-500 text-sm md:text-base leading-relaxed">
-            We believe that true financial freedom is built on a foundation of trust, transparency, and tailored strategies. Our vision is to empower individuals and businesses to navigate complex financial landscapes with confidence, ensuring sustainable growth and long-term security for generations to come.
+            We envision a zero-waste industrial ecosystem where high-grade scrap metal and discarded paper are sustainably recovered, expertly segregated, and transformed into essential raw materials for manufacturing, reducing environmental footprint and conserving natural resources for future generations.
           </p>
         </motion.div>
         
@@ -56,8 +56,8 @@ const MissionVision = () => {
         >
           <div className="w-full h-[350px] md:h-[450px] rounded-3xl overflow-hidden shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-              alt="Team collaboration" 
+              src="/images/aluminum-scrap.jpg" 
+              alt="Sustainable Metal Recycling" 
               className="w-full h-full object-cover"
             />
           </div>
@@ -78,10 +78,10 @@ const MissionVision = () => {
           {/* List of items */}
           <div className="flex flex-col gap-4 max-w-md mx-auto lg:mx-0 relative z-10">
             {[
-              { num: 1, title: 'Strategic Planning', active: true },
-              { num: 2, title: 'Wealth Investment', active: false },
-              { num: 3, title: 'Risk Management', active: false },
-              { num: 4, title: 'Sustainable Growth', active: false },
+              { num: 1, title: 'Quality Scrap Grading', active: true },
+              { num: 2, title: 'Certified Digital Weighing', active: false },
+              { num: 3, title: 'Prompt Bulk Logistics', active: false },
+              { num: 4, title: 'Eco-Friendly Circular Economy', active: false },
             ].map((item, idx) => (
               <div 
                 key={idx} 
@@ -127,7 +127,7 @@ const MissionVision = () => {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight"
           >
-            {"Delivering comprehensive wealth management solutions".split(" ").map((word, index) => (
+            {"Delivering Verified Raw Materials for Smelters & Paper Mills".split(" ").map((word, index) => (
               <motion.span
                 key={index}
                 variants={blurVariants}
@@ -138,7 +138,7 @@ const MissionVision = () => {
             ))}
           </motion.h2>
           <p className="text-gray-500 text-sm md:text-base leading-relaxed">
-            Rather than offering fragmented financial advice, we provide a holistic approach to wealth development. By integrating strategic planning, risk management, and operational efficiency, we simplify the path to your financial goals, giving you complete control over your wealth without the overwhelming complexity.
+            Our mission is to empower foundries, casting plants, and paper manufacturing mills with dependable, accurately weighed, and strictly graded scrap supplies. By eliminating quality ambiguities and maintaining large-scale ready stock at our Aji GIDC facility in Rajkot, we ensure uninterrupted production for our commercial partners.
           </p>
         </motion.div>
       </div>

@@ -33,7 +33,7 @@ const Contact = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block px-6 py-1.5 rounded-full text-md font-bold tracking-wider text-red-500 uppercase mb-8"
+            className="inline-block px-6 py-1.5 rounded-full text-md font-bold tracking-wider text-secondary uppercase mb-8"
           >
             Contact Us
           </motion.span>
@@ -79,15 +79,19 @@ const Contact = () => {
             </motion.div>
 
             {/* Phone Card */}
-            <motion.div variants={fadeUpVariants} className="bg-white p-6 rounded-2xl flex items-center gap-5 shadow-sm border border-gray-50 hover:border-secondary/20 hover:shadow-md transition-all group">
+            <motion.a 
+              href="tel:+919375077636"
+              variants={fadeUpVariants} 
+              className="bg-white p-6 rounded-2xl flex items-center gap-5 shadow-sm border border-gray-50 hover:border-secondary/20 hover:shadow-md transition-all group cursor-pointer"
+            >
               <div className="w-12 h-12 rounded-full bg-white border border-gray-100 shadow-sm flex items-center justify-center shrink-0 group-hover:bg-secondary transition-colors">
                 <Phone className="text-secondary w-5 h-5 group-hover:text-white transition-colors" />
               </div>
               <div className="text-left">
                 <p className="text-xs text-gray-500 mb-1 font-medium">Phone Number</p>
-                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">+91 90811 14222</p>
+                <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">+91 93750 77636</p>
               </div>
-            </motion.div>
+            </motion.a>
 
             {/* Location Card */}
             <motion.div variants={fadeUpVariants} className="bg-white p-6 rounded-2xl flex items-center gap-5 shadow-sm border border-gray-50 hover:border-secondary/20 hover:shadow-md transition-all group">
@@ -97,11 +101,11 @@ const Contact = () => {
               <div className="text-left">
                 <p className="text-xs text-gray-500 mb-1 font-medium">Our Office</p>
                 <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">
-                  VISHWAS DEVELOPMENT CORPORATION LLP<br />
-                  7th Floor, Office No. 708, 707<br />
-                  Pride Signet, Raiya Telephone Exhange<br />
-                  150 Feet Ring Road, Opp. B.R.T.S. Bus Stop<br />
-                  Rajkot - 360005
+                  Shree Ashapura Enterprise<br />
+                  Aji GIDC, Road-P,<br />
+                  Opposite Kirti Packaging,<br />
+                  Near Rajveer Foundry,<br />
+                  Rajkot
                 </p>
               </div>
             </motion.div>
@@ -120,7 +124,7 @@ const Contact = () => {
             className="rounded-[32px] overflow-hidden shadow-xl shadow-gray-200/40 border border-gray-100/80 bg-gray-100 min-h-[450px] lg:min-h-full h-full flex flex-col"
           >
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3!1d193595.2528001097!2d-74.14448744577884!3d40.69766374859258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1709664531393!5m2!1sen!2s" 
+              src="https://maps.google.com/maps?q=Aji+GIDC+Road-P+Opposite+Kirti+Packaging+Rajkot&t=&z=15&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

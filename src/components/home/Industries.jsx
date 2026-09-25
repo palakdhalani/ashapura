@@ -1,32 +1,32 @@
 import React from 'react';
-import { ArrowUpRight, Presentation, Banknote, Activity } from 'lucide-react';
+import { ArrowUpRight, Truck, Scale, Sparkles, Layers, ShieldCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const industries = [
   {
-    title: 'Consultation',
-    description: 'We begin by understanding your current financial standing, aspirations, and challenges.',
-    icon: Presentation
+    title: '1. Sourcing & Collection',
+    description: 'Bulk procurement directly from industrial plants, demolition sites, fabrication units, and commercial presses.',
+    icon: Truck
   },
   {
-    title: 'Financial Assessment',
-    description: 'Our experts conduct a thorough analysis of your assets, liabilities, and risk tolerance.',
-    icon: Banknote
+    title: '2. Sorting & Grading',
+    description: 'Strict segregation by metal grade (Millberry Copper, HMS Iron, 6063 Aluminum) and paper type (ONP, Kraft, OINP).',
+    icon: Layers
   },
   {
-    title: 'Customized Plan',
-    description: 'We design a tailored roadmap featuring the best investment and loan strategies for you.',
-    icon: Activity
+    title: '3. Compression & Baling',
+    description: 'Modern hydraulic baling machines compress waste paper and scrap into dense, uniform bales for safe transport.',
+    icon: Sparkles
   },
   {
-    title: 'Investment & Execution',
-    description: 'We seamlessly implement the plan, allocating resources to the right financial instruments.',
-    icon: Presentation
+    title: '4. Digital Weighbridge Verification',
+    description: '100% transparent weighing with certified electronic weighbridge slips provided for every consignment.',
+    icon: Scale
   },
   {
-    title: 'Ongoing Support',
-    description: 'We continuously monitor your portfolio, providing regular updates and rebalancing strategies as needed.',
-    icon: Banknote
+    title: '5. Fast Mill & Foundry Delivery',
+    description: 'Direct dispatch and timely supply chain support to induction furnaces, casting units, and paper mills.',
+    icon: ShieldCheck
   }
 ];
 
@@ -49,7 +49,7 @@ const Industries = () => {
   };
 
   return (
-    <section className="py-24 bg-white text-primary">
+    <section className="py-24 bg-white text-primary" id="process">
       <div className="container mx-auto px-6 lg:px-8 container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
 
@@ -59,7 +59,7 @@ const Industries = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="inline-block px-4 py-1 text-md font-bold tracking-wider text-red-500 uppercase mb-6"
+              className="inline-block px-4 py-1 text-md font-bold tracking-wider text-secondary uppercase mb-6"
             >
               Our Process
             </motion.span>
@@ -74,7 +74,7 @@ const Industries = () => {
               viewport={{ once: true }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6 text-primary"
             >
-              {"Our Simple Path to Financial Success".split(" ").map((word, index) => (
+              {"From Sourcing to Foundry Delivery".split(" ").map((word, index) => (
                 <motion.span
                   key={index}
                   variants={blurVariants}
@@ -92,7 +92,7 @@ const Industries = () => {
               transition={{ delay: 0.3 }}
               className="text-gray-500 leading-relaxed mb-10 max-w-md text-sm md:text-base"
             >
-              We follow a streamlined, transparent process to ensure your financial goals are met with precision and care.
+              Our structured quality inspection and baling workflow guarantees high melting recovery yield and minimal impurities.
             </motion.p>
 
             <motion.button

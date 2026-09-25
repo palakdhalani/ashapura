@@ -26,14 +26,18 @@ const Home = () => {
       {/* Why Choose Us Section */}
       <WhyChooseUs />
       
-      {/* Services Section */}
-      <div id="services">
-        <Services />
+      {/* Services / Products Section */}
+      <div id="products">
+        <div id="services">
+          <Services />
+        </div>
       </div>
 
-      {/* Industries Section */}
-      <div id="industries">
-        <Industries />
+      {/* Industries / Process Section */}
+      <div id="process">
+        <div id="industries">
+          <Industries />
+        </div>
       </div>
       
       {/* Testimonials Section */}

@@ -53,8 +53,8 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Services', path: '/#services' },
-    { name: 'Industries', path: '/#industries' },
+    { name: 'Products', path: '/#products' },
+    { name: 'Process', path: '/#process' },
     { name: 'Testimonials', path: '/#testimonials' },
     { name: 'FAQ', path: '/#faq' },
   ];
@@ -93,7 +93,9 @@ const Navbar = () => {
     >
       {/* Logo */}
       <Link to="/" className="flex items-center cursor-pointer group z-50">
-        <img src={logoImg} alt="Vishwas Development Corporation LLP Logo" className="h-14 md:h-16 w-auto group-hover:scale-105 transition-transform duration-300" />
+        <div className={`transition-all duration-300 ${!showSolidNav ? 'bg-white/95 px-3.5 py-1.5 rounded-xl shadow-md backdrop-blur-sm border border-white/20' : 'p-0'}`}>
+          <img src={logoImg} alt="Shree Ashapura Enterprise Logo" className="h-11 md:h-13 w-auto group-hover:scale-105 transition-transform duration-300" />
+        </div>
       </Link>
 
       {/* Center Links */}

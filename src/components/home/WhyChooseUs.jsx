@@ -78,7 +78,7 @@ const WhyChooseUs = () => {
           className="flex flex-col lg:flex-row gap-8 lg:gap-16 mb-20"
         >
           <motion.div variants={itemVariants} className="lg:w-1/4">
-            <span className="inline-block px-4 py-1 rounded-full  text-md font-bold tracking-wider text-red-500 uppercase bg-white ">
+            <span className="inline-block px-4 py-1 rounded-full text-md font-bold tracking-wider text-secondary uppercase bg-white shadow-sm">
               Why Choose Us
             </span>
           </motion.div>
@@ -91,7 +91,7 @@ const WhyChooseUs = () => {
             className="lg:w-3/4"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-primary leading-snug">
-              {"Our approach is centered on understanding your goals & delivering tailored financial strategies that create lasting wealth & financial security.".split(" ").map((word, index) => (
+              {"Our commitment is built on transparent spot pricing, accurate electronic weighbridges & dependable bulk scrap delivery for all industries.".split(" ").map((word, index) => (
                 <motion.span
                   key={index}
                   variants={blurVariants}
@@ -102,9 +102,11 @@ const WhyChooseUs = () => {
               ))}
               <motion.span 
                 variants={blurVariants}
-                className="inline-flex items-center gap-2 align-middle bg-secondary text-white text-base md:text-lg font-medium px-5 py-2 rounded-full cursor-pointer hover:bg-secondary/90 transition-all hover:scale-105 shadow-md"
+                className="inline-flex items-center gap-2 align-middle bg-secondary text-white text-base md:text-lg font-medium px-5 py-2 rounded-full cursor-pointer hover:bg-secondary-hover transition-all hover:scale-105 shadow-md"
               >
-                Free Consultation <ArrowUpRight className="w-5 h-5" />
+                <Link to="/#contact" className="inline-flex items-center gap-2 text-white">
+                  Get Best Rates <ArrowUpRight className="w-5 h-5" />
+                </Link>
               </motion.span>
             </h2>
           </motion.div>
@@ -130,8 +132,9 @@ const WhyChooseUs = () => {
                 viewport={{ once: true }}
                 className="bg-primary text-white p-8 md:p-10 w-48 md:w-64 shadow-2xl rounded-sm"
               >
-                <p className="text-xs font-bold uppercase tracking-widest text-accent mb-2">Years of<br/>Experience</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-accent mb-2">Industry<br/>Trust</p>
                 <h3 className="text-7xl md:text-8xl font-bold text-secondary"><AnimatedCounter to={25} /></h3>
+                <p className="text-xs text-white/80 mt-1 font-semibold uppercase tracking-wider">Years of Experience</p>
                 {/* Subtle Pattern overlay */}
                 <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:10px_10px]"></div>
               </motion.div>
@@ -139,8 +142,8 @@ const WhyChooseUs = () => {
 
             <div className="relative h-[400px] md:h-[500px] lg:h-[600px] w-full overflow-hidden rounded-sm shadow-xl ml-4 md:ml-0">
               <img 
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-                alt="Consultation Meeting" 
+                src="/images/iron-scrap.jpg" 
+                alt="Shree Ashapura Enterprise Iron Scrap Yard" 
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
             </div>
@@ -155,20 +158,20 @@ const WhyChooseUs = () => {
             className="lg:col-span-5 flex flex-col justify-center lg:pl-10 mt-10 lg:mt-0"
           >
             <motion.p variants={itemVariants} className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-6">
-              Numbers
+              Our Scale
             </motion.p>
             
             <motion.div variants={itemVariants} className="mb-10">
-              <h3 className="text-6xl md:text-7xl lg:text-8xl font-bold text-primary mb-2"><AnimatedCounter to={1346} suffix="+" /></h3>
-              <p className="text-gray-500 text-lg">Happy Clients</p>
+              <h3 className="text-6xl md:text-7xl lg:text-8xl font-bold text-primary mb-2"><AnimatedCounter to={1500} suffix="+" /></h3>
+              <p className="text-gray-500 text-lg">Tons Monthly Supplied</p>
             </motion.div>
             
             <motion.div variants={itemVariants} className="w-70 h-px bg-gray-300 mb-10"></motion.div>
             
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
               <div>
-                <h3 className="text-6xl md:text-7xl lg:text-8xl font-bold text-primary mb-2"><AnimatedCounter to={482} suffix="+" /></h3>
-                <p className="text-gray-500 text-lg">Trusted Investments</p>
+                <h3 className="text-6xl md:text-7xl lg:text-8xl font-bold text-primary mb-2"><AnimatedCounter to={100} suffix="%" /></h3>
+                <p className="text-gray-500 text-lg">Quality & Purity Verified</p>
               </div>
               
               {/* Small Image with Parallax */}
@@ -178,8 +181,8 @@ const WhyChooseUs = () => {
                   className="w-40 h-48 overflow-hidden rounded-sm shadow-xl shrink-0 self-end sm:self-auto"
                 >
                   <img 
-                    src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
-                    alt="Professional" 
+                    src="/images/aluminum-scrap.jpg" 
+                    alt="Aluminum Scrap Stock" 
                     className="w-full h-full object-cover"
                   />
                 </motion.div>

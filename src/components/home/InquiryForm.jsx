@@ -98,7 +98,7 @@ const InquiryForm = () => {
       `*Subject:* ${formData.subject}`
     );
 
-    const whatsappUrl = `https://wa.me/919081114222?text=${message}`;
+    const whatsappUrl = `https://wa.me/919375077636?text=${message}`;
     setSuccess('Redirecting to WhatsApp to send your inquiry...');
     window.open(whatsappUrl, '_blank');
   };
@@ -187,20 +187,23 @@ const InquiryForm = () => {
                 onChange={handleChange}
                 className="w-full px-5 py-4 rounded-2xl bg-[#F8F9FA] border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all text-sm font-medium text-slate-800 cursor-pointer appearance-none pr-10"
               >
-                <option value="" disabled>Select Subject</option>
-                <option value="Term Life Insurance">Term Life Insurance</option>
-                <option value="Health Insurance">Health Insurance</option>
-                <option value="Investment Plans">Investment Plans</option>
-                <option value="Car Insurance">Car Insurance</option>
-                <option value="2 Wheeler Insurance">2 Wheeler Insurance</option>
-                <option value="Family Health Insurance">Family Health Insurance</option>
-                <option value="Guaranteed Return Plans">Guaranteed Return Plans</option>
-                <option value="Child Saving Plans">Child Saving Plans</option>
-                <option value="Retirement Plans">Retirement Plans</option>
-                <option value="Mutual Fund">Mutual Fund</option>
-                <option value="Bond">Bond</option>
-                <option value="SIP (Systematic Investment)">SIP (Systematic Investment)</option>
-                <option value="General Inquiry">General Inquiry</option>
+                <option value="" disabled>Select Product</option>
+                <optgroup label="Metal Scrap">
+                  <option value="Copper Scrap">Copper Scrap</option>
+                  <option value="Iron Scrap">Iron Scrap</option>
+                  <option value="Aluminum Scrap">Aluminum Scrap</option>
+                </optgroup>
+                <optgroup label="Waste Paper">
+                  <option value="Old News Paper Scrap (ONP)">Old News Paper Scrap (ONP)</option>
+                </optgroup>
+                <optgroup label="Other Products">
+                  <option value="News Paper Scrap">News Paper Scrap</option>
+                  <option value="Waste Paper Craft">Waste Paper Craft</option>
+                </optgroup>
+                <optgroup label="General">
+                  <option value="Bulk Monthly Contract Supply">Bulk Monthly Contract Supply</option>
+                  <option value="General Trade Inquiry">General Trade Inquiry</option>
+                </optgroup>
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-5 text-gray-400">
                 <ChevronDown className="w-5 h-5" />

@@ -28,26 +28,26 @@ const Footer = () => {
 
             <div className="flex items-center gap-2">
               <Link to="/" className="group cursor-pointer inline-block bg-white p-3 rounded-xl shadow-lg">
-                <img src={logoImg} alt="Vishwas Development Corporation LLP Logo" className="h-18 w-auto group-hover:scale-105 transition-transform duration-300" />
+                <img src={logoImg} alt="Shree Ashapura Enterprise Logo" className="h-16 w-auto group-hover:scale-105 transition-transform duration-300" />
               </Link>
             </div>
 
             <div>
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Location</h4>
-              <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors cursor-pointer">
-                VISHWAS DEVELOPMENT CORPORATION LLP<br />
-                7th Floor, Office No. 708, 707<br />
-                Pride Signet, Raiya Telephone Exhange<br />
-                150 Feet Ring Road, Opp. B.R.T.S. Bus Stop<br />
-                Rajkot - 360005
+              <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors">
+                Shree Ashapura Enterprise<br />
+                Aji GIDC, Road-P,<br />
+                Opposite Kirti Packaging,<br />
+                Near Rajveer Foundry,<br />
+                Rajkot
               </p>
             </div>
 
             <div>
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Contact Us</h4>
-              <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors cursor-pointer">
-                +91 90811 14222<br />
-                official@vwdc.in
+              <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors">
+                <a href="tel:+919375077636" className="hover:text-secondary transition-colors">+91 93750 77636</a><br />
+                <a href="mailto:official@vwdc.in" className="hover:text-secondary transition-colors">official@vwdc.in</a>
               </p>
             </div>
           </div>
@@ -58,8 +58,8 @@ const Footer = () => {
             <ul className="flex flex-col gap-4 text-sm text-white/80">
               <li><Link to="/" className="hover:text-secondary transition-colors">Home</Link></li>
               <li><Link to="/about" className="hover:text-secondary transition-colors">About us</Link></li>
-              <li><Link to="/#services" className="hover:text-secondary transition-colors">Services</Link></li>
-              <li><Link to="/#industries" className="hover:text-secondary transition-colors">Industries</Link></li>
+              <li><Link to="/#products" className="hover:text-secondary transition-colors">Products</Link></li>
+              <li><Link to="/#process" className="hover:text-secondary transition-colors">Process</Link></li>
               <li><Link to="/#testimonials" className="hover:text-secondary transition-colors">Testimonials</Link></li>
             </ul>
           </div>
@@ -112,7 +112,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           <p className="text-xs text-white/50">
-            © 2026 <span className="text-white">Vishwas Development Corporation LLP</span>. All Rights Reserved.
+            © 2026 <span className="text-white">Shree Ashapura Enterprise</span>. All Rights Reserved.
           </p>
 
           {/* Designed By 

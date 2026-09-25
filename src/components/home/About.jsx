@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   const blurVariants = {
@@ -9,7 +10,7 @@ const About = () => {
   };
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white" id="about">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
 
@@ -19,11 +20,11 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: "-100px" }}
-            className=" h-full min-h-[400px] lg:min-h-[600px]"
+            className="h-full min-h-[400px] lg:min-h-[600px]"
           >
             <img
-              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-              alt="Financial Planning"
+              src="/images/copper-scrap.jpg"
+              alt="Shree Ashapura Enterprise Metal Scrap Yard"
               className="w-full h-full object-cover rounded-[2rem] shadow-xl"
             />
           </motion.div>
@@ -54,7 +55,7 @@ const About = () => {
               }}
               className="text-4xl sm:text-5xl font-bold text-primary leading-tight mb-6"
             >
-              {"Our Path to Trust and".split(" ").map((word, index) => (
+              {"Sustainable Metal &".split(" ").map((word, index) => (
                 <motion.span
                   key={`w1-${index}`}
                   variants={blurVariants}
@@ -64,7 +65,7 @@ const About = () => {
                 </motion.span>
               ))}
               <br className="hidden sm:block" />
-              {"Financial Success".split(" ").map((word, index) => (
+              {"Paper Recycling Excellence".split(" ").map((word, index) => (
                 <motion.span
                   key={`w2-${index}`}
                   variants={blurVariants}
@@ -79,18 +80,18 @@ const About = () => {
               variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
               className="text-gray-600 mb-8 leading-relaxed text-sm sm:text-base"
             >
-              At VISHWAS DEVELOPMENT CORPORATION LLP, we believe that financial security is the foundation of a prosperous future. Our mission is to empower individuals and businesses with trusted, personalized investment and loan solutions tailored to their unique financial goals.
+              At <strong className="text-primary font-bold">Shree Ashapura Enterprise</strong>, situated in Aji GIDC, Rajkot, we are a premier merchant and bulk supplier of high-grade metal scrap and waste paper materials. We supply verified Copper Scrap, Heavy Iron Scrap, Aluminum Scrap, and industrial Waste Paper (ONP & Craft) to foundries, induction furnaces, and paper manufacturing plants across Gujarat and India.
             </motion.p>
 
-            <motion.button
-              variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
-              className="flex items-center gap-3 bg-secondary text-white pl-6 pr-2 py-2 rounded-full text-sm font-medium hover:bg-secondary/90 transition-all hover:scale-105 group shadow-lg mb-10"
+            <Link
+              to="/about"
+              className="flex items-center gap-3 bg-secondary text-white pl-6 pr-2 py-2 rounded-full text-sm font-medium hover:bg-secondary-hover transition-all hover:scale-105 group shadow-lg mb-10"
             >
               Read More
               <span className="bg-white p-2 rounded-full group-hover:bg-gray-100 transition-colors">
                 <ArrowRight className="w-4 h-4 text-secondary" />
               </span>
-            </motion.button>
+            </Link>
 
             {/* Bottom Landscape Image */}
             <motion.div
@@ -99,8 +100,8 @@ const About = () => {
               className="w-full h-56 sm:h-64 lg:h-72"
             >
               <img
-                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Our Team"
+                src="/images/waste-paper-craft.jpg"
+                alt="Waste Paper Craft and Recycling Warehouse"
                 className="w-full h-full object-cover rounded-[2rem] shadow-lg"
               />
             </motion.div>

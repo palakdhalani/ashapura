@@ -6,21 +6,21 @@ import { Link } from 'react-router-dom';
 const slideData = [
   {
     id: 1,
-    title: '1. TRUSTED PARTNER',
-    heading: 'Build Your\nWealth',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
+    title: '1. TRUSTED RECYCLING PARTNER',
+    heading: 'Metal Scrap &\nPaper Recycling',
+    image: '/images/hero-facility.jpg'
   },
   {
     id: 2,
-    title: '2. FINANCIAL SERVICES',
-    heading: 'Expert Financial\nGuidance',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
+    title: '2. HIGH-GRADE METAL SCRAP',
+    heading: 'Copper, Iron &\nAluminum Scrap',
+    image: '/images/copper-scrap.jpg'
   },
   {
     id: 3,
-    title: '3. FINANCIAL INVESTING',
-    heading: 'Strategic Investment\nSolutions',
-    image: 'https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80'
+    title: '3. BULK PAPER RECYCLING',
+    heading: 'Waste Paper &\nCraft Paper Scrap',
+    image: '/images/newspaper-scrap.jpg'
   },
 ];
 
@@ -52,8 +52,8 @@ const Hero = () => {
             transition={{ duration: 1.2, ease: 'easeInOut' }}
           />
         </AnimatePresence>
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-0"></div>
-        <div className="absolute inset-0 bg-primary/20 z-0"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-transparent z-0"></div>
+        <div className="absolute inset-0 bg-primary/25 z-0"></div>
       </div>
 
       <div className="flex-1 flex flex-col justify-between px-4 md:px-8 lg:px-24 py-12 relative w-full mx-auto h-full z-10">
@@ -67,7 +67,7 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -20, opacity: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-[6rem] font-bold text-white leading-[1.1] md:leading-[0.95] tracking-tight mb-10 drop-shadow-lg whitespace-pre-wrap md:whitespace-pre"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] font-bold text-white leading-[1.1] md:leading-[0.98] tracking-tight mb-10 drop-shadow-lg whitespace-pre-wrap md:whitespace-pre"
             >
               {currentData.heading}
             </motion.h1>
@@ -79,8 +79,8 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex items-center gap-6"
           >
-            <Link to="/#services" className="flex items-center gap-3 bg-secondary text-white pl-6 pr-2 py-2 rounded-full text-lg font-medium hover:bg-secondary/90 transition-transform hover:scale-105 group shadow-xl">
-              Financial Services
+            <Link to="/#products" className="flex items-center gap-3 bg-secondary text-white pl-6 pr-2 py-2 rounded-full text-lg font-medium hover:bg-secondary-hover transition-transform hover:scale-105 group shadow-xl">
+              Explore Products
               <span className="bg-white/20 p-2.5 rounded-full group-hover:bg-white/30 transition-colors">
                 <ArrowUpRight className="w-5 h-5 text-white" />
               </span>
@@ -95,8 +95,8 @@ const Hero = () => {
             className="mt-24 lg:mt-32"
           >
             <div className="w-12 h-0.5 bg-secondary mb-4 shadow-sm"></div>
-            <p className="text-white font-bold tracking-[0.2em] text-xs uppercase max-w-[280px] leading-relaxed drop-shadow-md">
-              Your wealth development is our priority.
+            <p className="text-white font-bold tracking-[0.2em] text-xs uppercase max-w-[320px] leading-relaxed drop-shadow-md">
+              Leading scrap metal and waste paper merchant in Rajkot, Gujarat.
             </p>
           </motion.div>
         </div>
@@ -108,16 +108,16 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
           className="absolute right-4 lg:right-12 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-5 z-20"
         >
-          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
+          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-secondary hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
             <Mail className="w-4 h-4 font-ultrabold" />
           </Link>
-          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
+          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-secondary hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
             <Phone className="w-4 h-4" />
           </Link>
-          <Link to="/" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
+          <Link to="/" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-secondary hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
             <Globe className="w-4 h-4" />
           </Link>
-          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-red-500 hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
+          <Link to="/#contact" className="w-11 h-11 rounded-full border border-white/30 flex items-center justify-center text-secondary hover:bg-white hover:border-secondary transition-all shadow-lg hover:scale-110">
             <MessageCircle className="w-4 h-4" />
           </Link>
         </motion.div>
