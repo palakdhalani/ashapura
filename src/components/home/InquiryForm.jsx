@@ -77,10 +77,10 @@ const InquiryForm = () => {
       `Email: ${formData.email}\n` +
       `Phone: ${fullPhone}\n` +
       `Subject: ${formData.subject}\n\n` +
-      `Sent from Vishwas Development Corporation LLP Website Inquiry Form`
+      `Sent from Shree Ashapura Enterprise Website Inquiry Form`
     );
 
-    const mailtoUrl = `mailto:official@vwdc.in?subject=${mailtoSubject}&body=${mailtoBody}`;
+    const mailtoUrl = `mailto:contact@shreeashapuraenterprise.com?subject=${mailtoSubject}&body=${mailtoBody}`;
     setSuccess('Opening your email client to send the inquiry...');
     window.location.href = mailtoUrl;
   };
@@ -91,7 +91,7 @@ const InquiryForm = () => {
 
     const fullPhone = `${formData.countryCode} ${formData.phone}`;
     const message = encodeURIComponent(
-      `*New Service Inquiry*\n\n` +
+      `*New Scrap Procurement Inquiry - Shree Ashapura Enterprise*\n\n` +
       `*Full Name:* ${formData.fullName}\n` +
       `*Email:* ${formData.email}\n` +
       `*Phone:* ${fullPhone}\n` +

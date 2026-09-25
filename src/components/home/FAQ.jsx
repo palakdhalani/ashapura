@@ -102,9 +102,9 @@ const FAQ = () => {
                 transition={{ delay: 0.4 }}
                 className="mt-16 lg:mt-32"
               >
-                <h4 className="text-xl font-bold text-primary mb-3">Still have a question?</h4>
+                <h4 className="text-xl font-bold text-primary mb-3">Have Specific Scrap Requirements?</h4>
                 <p className="text-gray-500 text-sm md:text-base leading-relaxed mb-6 max-w-sm">
-                  Don't worry we're free for consultation. Contact us and our team will get back to you shortly.
+                  Need custom material grading, bulk spot pricing, or lot inspection at our Rajkot facility? Contact our team for immediate quotation.
                 </p>
                 <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}

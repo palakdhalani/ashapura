@@ -84,7 +84,7 @@ const Testimonials = () => {
             transition={{ delay: 0.2 }}
             className="text-gray-500 leading-relaxed text-sm md:text-base max-w-xl"
           >
-            Our clients trust us to deliver expert financial strategies, wealth management, and seamless loan solutions that ensure long-term growth and success.
+            Foundries, steel plants, and paper mills trust Shree Ashapura Enterprise for dependable scrap grading, certified weighbridges, and transparent spot pricing.
           </motion.p>
         </div>
 

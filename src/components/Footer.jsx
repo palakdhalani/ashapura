@@ -47,7 +47,7 @@ const Footer = () => {
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Contact Us</h4>
               <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors">
                 <a href="tel:+919375077636" className="hover:text-secondary transition-colors">+91 93750 77636</a><br />
-                <a href="mailto:official@vwdc.in" className="hover:text-secondary transition-colors">official@vwdc.in</a>
+                <a href="mailto:contact@shreeashapuraenterprise.com" className="hover:text-secondary transition-colors">contact@shreeashapuraenterprise.com</a>
               </p>
             </div>
           </div>
@@ -95,9 +95,9 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="flex gap-3 mt-6">
               {[
-                { Icon: Facebook, link: "https://www.facebook.com/VishwasWealthDevelopmentCorporation/" },
+                { Icon: Facebook, link: "#" },
                 { Icon: Twitter, link: "#" },
-                { Icon: Instagram, link: "https://www.instagram.com/v_w_d_c/" },
+                { Icon: Instagram, link: "#" },
                 { Icon: Linkedin, link: "#" }
               ].map(({ Icon, link }, i) => (
                 <a key={i} href={link} target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors group">
