@@ -35,11 +35,10 @@ const Footer = () => {
             <div>
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Location</h4>
               <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors">
-                Shree Ashapura Enterprise<br />
-                Aji GIDC, Road-P,<br />
-                Opposite Kirti Packaging,<br />
-                Near Rajveer Foundry,<br />
-                Rajkot
+                Plot No.233/B,<br />
+                Aji G.I.D.C. Phase 2,<br />
+                Nr. Rajavir Foundary,<br />
+                Rajkot, Gujarat - 360003
               </p>
             </div>
 
@@ -47,7 +46,7 @@ const Footer = () => {
               <h4 className="text-xs font-bold tracking-wider uppercase text-white/50 mb-3">Contact Us</h4>
               <p className="text-white/80 text-sm leading-relaxed hover:text-white transition-colors">
                 <a href="tel:+919375077636" className="hover:text-secondary transition-colors">+91 93750 77636</a><br />
-                <a href="mailto:contact@shreeashapuraenterprise.com" className="hover:text-secondary transition-colors">contact@shreeashapuraenterprise.com</a>
+                <a href="mailto:sheth@ashapuraenterprise.biz" className="hover:text-secondary transition-colors">sheth@ashapuraenterprise.biz</a>
               </p>
             </div>
           </div>
@@ -112,7 +111,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           <p className="text-xs text-white/50">
-            © 2026 <span className="text-white">Shree Ashapura Enterprise</span>. All Rights Reserved.
+            Copy Rights 2026 <span className="text-white">Alkaben Shaileshbhai Sheth</span> All Rights Reserved.
           </p>
 
           {/* Designed By 

@@ -80,7 +80,7 @@ const InquiryForm = () => {
       `Sent from Shree Ashapura Enterprise Website Inquiry Form`
     );
 
-    const mailtoUrl = `mailto:contact@shreeashapuraenterprise.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+    const mailtoUrl = `mailto:sheth@ashapuraenterprise.biz?subject=${mailtoSubject}&body=${mailtoBody}`;
     setSuccess('Opening your email client to send the inquiry...');
     window.location.href = mailtoUrl;
   };

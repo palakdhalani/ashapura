@@ -117,10 +117,10 @@ const ConsultationCTA = () => {
               </h3>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">
                 <strong>Shree Ashapura Enterprise</strong><br />
-                Aji GIDC, Road-P,<br />
-                Opposite Kirti Packaging,<br />
-                Near Rajveer Foundry,<br />
-                Rajkot, Gujarat - India
+                Plot No.233/B,<br />
+                Aji G.I.D.C. Phase 2,<br />
+                Nr. Rajavir Foundary,<br />
+                Rajkot, Gujarat - 360003
               </p>
               <div className="pt-4 border-t border-white/10 flex items-center justify-between text-xs text-slate-400">
                 <span>Working Hours:</span>

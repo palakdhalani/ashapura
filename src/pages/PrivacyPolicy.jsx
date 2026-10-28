@@ -75,9 +75,9 @@ const PrivacyPolicy = () => {
               </p>
               <div className="mt-3 p-4 bg-gray-50 rounded-xl border border-gray-100 font-medium">
                 <p><strong>Shree Ashapura Enterprise</strong></p>
-                <p>Aji GIDC, Road-P, Opposite Kirti Packaging, Near Rajveer Foundry, Rajkot</p>
+                <p>Plot No.233/B, Aji G.I.D.C. Phase 2, Nr. Rajavir Foundary, Rajkot, Gujarat 360003</p>
                 <p>Phone: <a href="tel:+919375077636" className="text-secondary font-bold">+91 93750 77636</a></p>
-                <p>Email: <a href="mailto:contact@shreeashapuraenterprise.com" className="text-secondary">contact@shreeashapuraenterprise.com</a></p>
+                <p>Email: <a href="mailto:sheth@ashapuraenterprise.biz" className="text-secondary">sheth@ashapuraenterprise.biz</a></p>
               </div>
             </section>
           </div>

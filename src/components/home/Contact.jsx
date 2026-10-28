@@ -74,7 +74,7 @@ const Contact = () => {
               </div>
               <div className="text-left">
                 <p className="text-xs text-gray-500 mb-1 font-medium">Email Address</p>
-                <a href="mailto:contact@shreeashapuraenterprise.com" className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">contact@shreeashapuraenterprise.com</a>
+                <a href="mailto:sheth@ashapuraenterprise.biz" className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors break-all">sheth@ashapuraenterprise.biz</a>
               </div>
             </motion.div>
 
@@ -101,11 +101,10 @@ const Contact = () => {
               <div className="text-left">
                 <p className="text-xs text-gray-500 mb-1 font-medium">Our Office</p>
                 <p className="font-bold text-sm md:text-base group-hover:text-secondary transition-colors">
-                  Shree Ashapura Enterprise<br />
-                  Aji GIDC, Road-P,<br />
-                  Opposite Kirti Packaging,<br />
-                  Near Rajveer Foundry,<br />
-                  Rajkot
+                  Plot No.233/B,<br />
+                  Aji G.I.D.C. Phase 2,<br />
+                  Nr. Rajavir Foundary,<br />
+                  Rajkot, Gujarat - 360003
                 </p>
               </div>
             </motion.div>
@@ -124,7 +123,7 @@ const Contact = () => {
             className="rounded-[32px] overflow-hidden shadow-xl shadow-gray-200/40 border border-gray-100/80 bg-gray-100 min-h-[450px] lg:min-h-full h-full flex flex-col"
           >
             <iframe 
-              src="https://maps.google.com/maps?q=Aji+GIDC+Road-P+Opposite+Kirti+Packaging+Rajkot&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              src="https://maps.google.com/maps?q=Plot+No.233%2FB+Aji+G.I.D.C.+Phase+2+Nr.+Rajavir+Foundary+Rajkot+Gujarat+360003&t=&z=15&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

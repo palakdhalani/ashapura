@@ -22,7 +22,7 @@ const TermsAndConditions = () => {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">1. Agreement to Terms</h2>
               <p>
-                By placing an order, requesting a quotation, or purchasing scrap materials from <strong>Shree Ashapura Enterprise</strong> (located at Aji GIDC, Road-P, Opposite Kirti Packaging, Near Rajveer Foundry, Rajkot), you agree to be bound by these commercial Terms & Conditions. Please read them thoroughly prior to finalizing any transaction.
+                By placing an order, requesting a quotation, or purchasing scrap materials from <strong>Shree Ashapura Enterprise</strong> (located at Plot No.233/B, Aji G.I.D.C. Phase 2, Nr. Rajavir Foundary, Rajkot, Gujarat 360003), you agree to be bound by these commercial Terms & Conditions. Please read them thoroughly prior to finalizing any transaction.
               </p>
             </section>
 
